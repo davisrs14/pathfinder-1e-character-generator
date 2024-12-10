@@ -14,7 +14,7 @@ def button_clicked():
         sumofdice = randomNumbers[1]+randomNumbers[2]+randomNumbers[3] #adds the 3 highest rolls to generate an ability score
         dicetotal.append(sumofdice) #adds the scores to a list for allocation
     root2.title("Scores")
-    root2.configure(background="gray")
+    root2.configure(background="blue")
     root2.minsize(300, 300)  # width, height
     root2.maxsize(500, 500)
     root2.geometry("300x300+50+50")  # width x height + x + y
